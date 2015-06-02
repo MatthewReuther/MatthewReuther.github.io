@@ -72,6 +72,7 @@ p {
   padding-bottom: 50px;
   font-size: 15px;
 }
+
 #profile_container{
   border-radius: 20px;
   background-color: rgba(0,0,0,.85);
@@ -95,5 +96,6 @@ p {
 }
 
 #about{
-  margin-top: -50px;
+  padding-top: 60px;
+  padding-bottom: 150px;
 }
