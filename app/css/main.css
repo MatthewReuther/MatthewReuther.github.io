@@ -91,22 +91,6 @@ hr {
   margin: auto;
 }
 
-/*#navbar-main-sticky-wrapper {
-  width: 1277px;
-}
-
-.sticky-wrapper {
-  margin: auto;
-  text-align: center;
-  width: 1277px;
-}
-
-.is-sticky {
-  margin: auto;
-  text-align: center;
-  width: 1277px;
-}*/
-
 .navbar-nav {
   padding: 10px;
   display:inline-block;
@@ -114,21 +98,6 @@ hr {
   float: none;
   margin: auto;
 }
-
-.navbar-nav:hover {
-  padding: 12px;
-  display:inline-block;
-/*  float: right;*/
-  float: none;
-  margin: auto;
-}
-
-#navbar-main {
-  margin: auto;
-  text-align: center;
-}
-
-
 
 
 /* ==========================================================================
