@@ -49,94 +49,176 @@ hr {
   text-align: center;
 }
 
-.navbar-collapse {
-  text-align:center;
-}
-.navbar-nav {
-    display:inline-block;
-    float: none;
+/***************   NAVBAR    **********/
+
+.navbar-inverse .navbar-nav > li > a {
+  padding-bottom: 38px;
+  padding-top: 20px;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 10px 40px;
+  /*padding: 10px 10px;*/
+  margin: auto;
 }
 
-.navbar-inverse {
-  background-color: black;
-  border-color: black;
-  opacity: .8;
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  padding-bottom: 38px;
+  padding-top: 20px;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 10px 40px;
+  color: black;
+  margin: auto;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus {
+  padding-bottom: 38px;
+  padding-top: 20px;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 10px 40px;
+  color: black;
+  margin: auto;
+}
+
+.navbar-inverse  {
+  background-color: #FFF;
+  border-color: #FFF;
   font-weight: 200px;
-  font-size: 24px;
+  text-align: center;
+  border-bottom: 2px solid #f5f5f5;
+  margin: auto;
+}
+
+/*#navbar-main-sticky-wrapper {
+  width: 1277px;
+}
+
+.sticky-wrapper {
+  margin: auto;
+  text-align: center;
+  width: 1277px;
+}
+
+.is-sticky {
+  margin: auto;
+  text-align: center;
+  width: 1277px;
+}*/
+
+.navbar-nav {
+  padding: 10px;
+  display:inline-block;
+/*  float: right;*/
+  float: none;
+  margin: auto;
+}
+
+.navbar-nav:hover {
+  padding: 12px;
+  display:inline-block;
+/*  float: right;*/
+  float: none;
+  margin: auto;
+}
+
+#navbar-main {
+  margin: auto;
   text-align: center;
 }
 
-.navbar-inverse .navbar-nav li a {
-  color: #886B3A;
-  font-weight: 500;
-}
 
-.navbar-fixed-top .navbar-collapse {
-  max-height: 0px;
-}
 
 
 /* ==========================================================================
    Wrap Sections
    ========================================================================== */
 
+/***************   HOME PAGE     **********/
 #home{
-  min-height: 650px;
   padding-top: 40px;
-  background: linear-gradient(#000, transparent 0%),
-              linear-gradient(0deg, #fff, transparent),
-              #000 url('../../lights.jpg') repeat center;
-  background-position: left;
-  background-color: black;
+  background: url('../../main_background.png') no-repeat center;
   font-size: 15px;
-  padding-bottom: 50px;
+  padding-top: 40px;
+  padding-bottom: 135px;
+  text-shadow: 1px 1px 5px black;
 }
 
-#profile_container{
-  border-radius: 20px;
-  background-color: rgba(0,0,0,.85);
-  padding-top: 40px;
+#profile_container {
+  padding-top: 225px;
   padding-bottom: 20px;
   margin-top: 35px;
+  text-align: left;
+  color: white;
 }
 
-#profile_container i {
+#profile_container h1 {
+  text-shadow: 1px 1px 5px black;
   font-size: 60px;
-  margin: 10px 0;
-  color: #886B3A;
+  color: white;
+}
+
+.btn {
+  font-weight: 300;
+  font-size: 15px;
+  background-color: #D54724;
+  box-shadow: 1px 1px 2px black;
+  color: #fff;
   border: 0;
 }
-
-#profile_container img{
-  width: 200px;
-  border-radius: 60%;
-  opacity: .9;
+.btn:hover {
+  background-color: #C7422C;
+  color: #fff;
+  box-shadow: 1px 1px 5px black;
+  outline: 0px;
 }
+
+.btn:focus {
+  background-color: #D54724;
+  color: #fff;
+  outline: 0px;
+}
+
+/***************   ABOUT PAGE     **********/
 
 #about{
-  padding-top: 50px;
+  padding-top: 80px;
+  padding-bottom: 140px;
 }
 
+.pro-pic {
+  display: block;
+  margin-top: 65px;
+  max-width: 650px;
+  max-height: 400px;
+  border-radius: 10px;
+}
+
+
+/***************   SKILLS PAGE     **********/
 #skills {
-  background: #f5f5f5;
-  padding-top: 50px;
-  padding-bottom: 120;
+  background: rgb(39, 151, 208);
+  padding-top: 80px;
+  padding-bottom: 120px;
   text-align: center;
 }
 #skills .fa {
-  color: #ffbf00;
+  color: #D54724;
 }
 #skills p {
   text-align: center;
+  color: #fff;
 }
 
-.row {
-  padding-bottom: 120px;
+#skills h2 {
+  text-align: center;
+  color: #fff;
 }
 
-.white h1 {
-  color: #999;
+#skills h3 {
+  text-align: center;
+  color: #fff;
 }
-.white p {
-  padding-top: 25px;
-}
+
+
