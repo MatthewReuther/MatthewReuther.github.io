@@ -53,7 +53,7 @@ hr {
   text-align: center;
 }
 
-/***************   NAVBAR    **********/
+/***************   NAVBARS    **********/
 
 /*nav.navbar-default .navbar-nav > li > a {
   padding-bottom: 38px;
@@ -75,7 +75,31 @@ hr {
   background-color: #fff;
   color: black;
 }*/
+/***************   HOME NAVBAR    **********/
 
+nav.navbar-home {
+  background-color: black;
+}
+
+ul.navbar-home-links {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.navbar-home-links li {
+  display: inline-block;
+  padding: 0px 60px;
+  font-size: 20px;
+  font-weight: 200px;
+  text-shadow: 1px 1px 5px black;
+}
+
+.navbar-home-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/***************   BODY NAVBAR    **********/
 .navbar-default  {
   background-color: #FFF;
   border-color: #FFF;
@@ -154,9 +178,10 @@ div.nav-inner {
 }
 
 #profile_container {
-  padding-top: 225px;
+  padding-top: 215px;
   padding-bottom: 20px;
   margin-left: -30px;
+  padding-left: 30px;
   margin-top: 35px;
   text-align: left;
   color: white;
