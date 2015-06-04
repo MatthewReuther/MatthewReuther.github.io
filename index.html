@@ -29,7 +29,7 @@
 
 <!-- ==== HOME ==== -->
   <div id="home" name="home">
-    <div class="container text-center">
+    <div class="container">
       <div id="profile_container" class="col-sm-12">
         <h1>Matthew E. Reuther</h1>
         <label>Lorem ipsum dolor sit amet</label>
@@ -39,31 +39,36 @@
     </div>
   </div>
 
+
+  <nav class="navbar navbar-default">
+    <div class="container nav-container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button></div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="#home">Home</a></li>
+          <li> <a href="#about"> About</a></li>
+          <li> <a href="#skills"> Skills</a></li>
+          <li> <a href="#portfolio"> Portfolio</a></li>
+          <li> <a href="#contact"> Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
 <!-- ==== ABOUT ==== -->
 <body>
-    <div id="#navbar-main" class="navbar-container">
-      <ul class="navbar-links">
-        <li><a href="#home">Home</a></li>
-        <li> <a href="#about"> About</a></li>
-        <li> <a href="#skills"> Skills</a></li>
-        <li> <a href="#portfolio"> Portfolio</a></li>
-        <li> <a href="#contact"> Contact</a></li>
-      </ul>
-    </div>
-  </div>
-
   <div id="about" name="about">
-    <div class="container">
-      <div class="row white">
+    <div class="container about-container">
         <h2 class="centered">ABOUT ME</h2>
         <hr>
         <div class="col-md-6"> <img class="img-responsive pro-pic" src="ProfessionalPicture.jpg" align=""> </div>
-        <div class="col-md-6">
+        <div class="col-md-6 about-me">
           <h3>Who am I</h3>
           <p>Lorem ipsum dolor sit amet, quo meis audire placerat eu, te eos porro veniam. An everti maiorum detracto mea. Eu eos dicam voluptaria, erant bonorum albucius et per, ei sapientem accommodare est. Saepe dolorum constituam ei vel. Te sit malorum ceteros repudiandae, ne tritani adipisci vis.</p>
           <h3>Why choose me?</h3>
           <p>Lorem ipsum dolor sit amet, quo meis audire placerat eu, te eos porro veniam. An everti maiorum detracto mea. Eu eos dicam voluptaria, erant bonorum albucius et per, ei sapientem accommodare est. Saepe dolorum constituam ei vel.</p>
-        </div>
       </div>
     </div>
   </div>
@@ -106,6 +111,7 @@
 </div>
 
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="app/js/main.js"></script>
 
 </body>
