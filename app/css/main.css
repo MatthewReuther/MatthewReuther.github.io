@@ -91,12 +91,18 @@ ul.navbar-home-links {
   padding: 0px 60px;
   font-size: 20px;
   font-weight: 200px;
-  text-shadow: 1px 1px 5px black;
 }
 
 .navbar-home-links a {
   color: #fff;
   text-decoration: none;
+  text-shadow: 1px 1px 2px black;
+}
+
+.navbar-home-links a:hover {
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 1px 1px 5px black;
 }
 
 /***************   BODY NAVBAR    **********/
@@ -114,7 +120,6 @@ div.nav-placeholder {
   text-decoration: none;
 }
 
-
 div.nav-container li {
   display:inline-block;
   padding: 20px 40px;
@@ -124,13 +129,15 @@ div.nav-container li {
 }
 
 div.nav-container li a{
-  color: #9D9D9D;
+/*  color: #9D9D9D;*/
+  color: #fff;
   text-decoration: none;
 }
 
 div.nav-container a:hover,
 div.nav-container a:focus {
-  color: black;
+/*  color: black;*/
+  color: #fff;
 }
 
 .fixed {
@@ -171,7 +178,8 @@ div.nav-inner {
 /***************   HOME PAGE     **********/
 #home{
   padding-top: 40px;
-  background: url('../../main_background.png') no-repeat center;
+  background: url('../assets/mac_on_desk.jpg') no-repeat center;
+  background-size: cover;
   font-size: 15px;
   padding-bottom: 140px;
   text-shadow: 1px 1px 5px black;
@@ -200,7 +208,9 @@ div.nav-inner {
   box-shadow: 1px 1px 2px black;
   color: #fff;
   border: 0;
+  margin-right: 1%;
 }
+
 .btn:hover {
   background-color: #C7422C;
   color: #fff;
@@ -239,12 +249,10 @@ div.nav-inner {
   margin-right: 15%;
 }
 
-
-
 /***************   SKILLS PAGE     **********/
 #skills {
   background: rgb(39, 151, 208);
-  padding-top: 80px;
+  padding-top: 8px;
   padding-bottom: 120px;
   text-align: center;
 }
