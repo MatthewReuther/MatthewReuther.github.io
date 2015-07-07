@@ -59,6 +59,15 @@ hr {
   margin: auto;
 }
 
+div.col-lg-4.callout {
+  margin-bottom: 25px;
+}
+
+div.col-lg-12.callout {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
 /***************   NAVBARS    **********/
 
 /*nav.navbar-default .navbar-nav > li > a {
