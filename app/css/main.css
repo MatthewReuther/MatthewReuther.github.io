@@ -53,6 +53,12 @@ hr {
   text-align: center;
 }
 
+.skill-images {
+  max-width: 100px;
+  max-height: 98px;
+  margin: auto;
+}
+
 /***************   NAVBARS    **********/
 
 /*nav.navbar-default .navbar-nav > li > a {
