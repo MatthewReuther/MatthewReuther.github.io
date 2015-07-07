@@ -12,9 +12,14 @@
 
 <!-- Custom CSS -->
 <link href="app/css/main.css" rel="stylesheet">
+
 <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'
+>
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/modernizr/modernizr.custom.js"></script>
 
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -89,6 +94,89 @@
     </div>
   </div>
 
+<!-- ==== PORTFOLIO ==== -->
+<div id="portfolio" name="portfolio">
+  <div class="container">
+    <div class="row">
+      <h2 class="centered">MY PORTFOLIO</h2>
+      <hr>
+      <div class="col-lg-8 col-lg-offset-2 centered">
+        <p class="large">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+      </div>
+    </div>
+    <!-- /row -->
+    <div class="container">
+      <div class="row">
+        <!-- PORTFOLIO IMAGE 1 -->
+        <div class="col-md-4 ">
+          <div class="grid mask">
+            <figure> <img class="img-responsive portfolio-images" src="app/assets/Podium.jpg" alt="">
+              <figcaption>
+                <h5>Podium</h5>
+                  <a data-toggle="modal" href="https://github.com/MatthewReuther/podium" class="btn btn-default code">View Code</a>
+                  <a data-toggle="modal" href="https://project-spark.firebaseapp.com/" class="btn btn-default">View Live</a>
+              </figcaption>
+              <!-- /figcaption --> 
+            </figure>
+            <!-- /figure --> 
+          </div>
+          <!-- /grid-mask --> 
+        </div>
+        <!-- MODAL SHOW THE PORTFOLIO IMAGE. In this demo, all links point to this modal. You should create
+                  a modal for each of your projects. -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Project Title</h4>
+              </div>
+              <div class="modal-body">
+                <p><img class="img-responsive" src="app/assets/folio01-preview.jpg" alt=""></p>
+                <p>Lorem ipsum dolor sit amet, quo meis audire placerat eu, te eos porro veniam. An everti maiorum detracto mea. Eu eos dicam voluptaria, erant bonorum albucius et per, ei sapientem accommodare est. Saepe dolorum constituam ei vel</p>
+                <p><b><a href="#">Visit Site</a></b></p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+            <!-- /.modal-content --> 
+          </div>
+          <!-- /.modal-dialog --> 
+        </div>
+        <!-- /.modal --> 
+        
+        <!-- PORTFOLIO IMAGE 2 -->
+        <div class="col-md-4">
+          <div class="grid mask">
+            <figure> <img class="img-responsive portfolio-images" src="app/assets/ProjectSpark.jpg" alt="">
+              <figcaption>
+                <h5>Project Spark</h5>
+                <a data-toggle="modal" href="http://snack-tennessee.herokuapp.com/" class="btn btn-default">View Live</a> 
+              </figcaption>
+              <!-- /figcaption --> 
+            </figure>
+            <!-- /figure --> 
+          </div>
+          <!-- /grid-mask --> 
+        </div>
+        
+        <!-- PORTFOLIO IMAGE 3 -->
+        <div class="col-md-4">
+          <div class="grid mask">
+            <figure> <img class="img-responsive portfolio-images" src="app/assets/SnackTN.jpg" alt="">
+              <figcaption>
+                <h5>Snack Tennessee</h5>
+                <a data-toggle="modal" href="#myModal" class="btn btn-default">View Live</a> </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /container --> 
+
 <!-- ==== Skills ==== -->
 <div id="skills" name="skills">
   <div class="container">
@@ -126,9 +214,9 @@
   </div>
 </div>
 
-<script src="bower_components/jquery/dist/jquery.min.js"></script>
-<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
 <script src="app/js/main.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </body>
 </html>
