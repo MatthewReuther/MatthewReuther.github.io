@@ -293,20 +293,25 @@ div.col-lg-12.callout {
 }
 
 i.fa-desktop {
-  font-size: 75px;
+  font-size: 100px;
 }
 
 i.fa-gears {
   font-size: 75px;
 }
 
+img.small-images {
+  height: 98px;
+  width: 100px;
+}
 
-/************Portfolio*********/
+
+/***************   PORTFOLIO PAGE     **********/
 
 #portfolio {
   background: rgb(39, 151, 208);
   padding-top: 8px;
-  padding-bottom: 120px;
+  padding-bottom: 70px;
   text-align: center;
 }
 
@@ -331,6 +336,12 @@ a.btn.btn-default.code {
 .mask figcaption a {
   position: none;
 }
+
+.grid.mask {
+  margin-bottom: 50px;
+}
+
+
 
 
 /* ==========================================================================
