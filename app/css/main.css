@@ -278,8 +278,8 @@ div.nav-inner {
 }
 
 .skill-images {
-  max-width: 100px;
-  max-height: 98px;
+  max-width: 83px;
+  max-height: 83px;
   margin: auto;
 }
 
@@ -293,16 +293,21 @@ div.col-lg-12.callout {
 }
 
 i.fa-desktop {
-  font-size: 100px;
-}
-
-i.fa-gears {
   font-size: 75px;
 }
 
-img.small-images {
-  height: 98px;
-  width: 100px;
+i.fa-database {
+  font-size: 75px;
+}
+
+div.col-lg-6.callout {
+  border: black 20px;
+}
+
+img.wider-images {
+  max-height: 98px;
+  max-width: 200px;
+  margin: auto;
 }
 
 
@@ -340,8 +345,6 @@ a.btn.btn-default.code {
 .grid.mask {
   margin-bottom: 50px;
 }
-
-
 
 
 /* ==========================================================================
