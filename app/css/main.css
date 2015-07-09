@@ -54,28 +54,6 @@ hr {
 }
 
 
-/***************   NAVBARS    **********/
-
-/*nav.navbar-default .navbar-nav > li > a {
-  padding-bottom: 38px;
-  padding-top: 20px;
-  font-size: 15px;
-  line-height: 20px;
-  padding: 10px 40px;
-}
-
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-  color: black;
-}
-
-
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus,
-.navbar-default .navbar-nav > .active > a {
-  background-color: #fff;
-  color: black;
-}*/
 /***************   HOME NAVBAR    **********/
 
 nav.navbar-home {
@@ -235,20 +213,18 @@ div.nav-inner {
   padding-bottom: 140px;
 }
 
-.about-me {
+/*.about-me {
   margin-top: -1.7%;
   margin-left: -8%;
   padding-left: 50px;
-}
+}*/
 
-.pro-pic {
-  display: block;
-  margin-top: 65px;
-  max-width: 450px;
-  max-height: 350px;
-  border-radius: 10px;
+#pro-pic {
+  max-width: 475px;
+  max-height: 375px;
+  border-radius: 100%;
   margin: auto;
-  margin-right: 15%;
+  margin-top: 25px;
 }
 
 /***************   SKILLS PAGE     **********/
@@ -279,35 +255,46 @@ div.nav-inner {
 
 .skill-images {
   max-width: 83px;
-  max-height: 83px;
+  height: 83px;
   margin: auto;
 }
 
-
-div.col-lg-4.callout {
-  margin-bottom: 25px;
-}
-
-div.col-lg-12.callout {
-  margin-bottom: 25px;
-}
-
-i.fa-desktop {
+a.fa-desktop {
   font-size: 75px;
 }
 
-i.fa-database {
+a.fa-database {
   font-size: 75px;
 }
 
-div.col-lg-6.callout {
-  border: black 20px;
+.bottom-front-end-container {
+  margin-bottom: 50px;
 }
 
 img.wider-images {
-  max-height: 98px;
+  max-height: 83px;
   max-width: 200px;
   margin: auto;
+}
+
+ul#front-end {
+  list-style: none;
+}
+
+#front-end-sub {
+  list-style-type: none;
+}
+
+ul#back-end {
+  list-style: none;
+}
+
+#back-end-sub {
+  list-style-type: none;
+}
+
+h3 {
+  text-align: center;
 }
 
 

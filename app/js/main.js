@@ -13,6 +13,7 @@ $(function() {
   });
 });
 
+//////////////////   Navbar  ///////////////////////
 $(document).ready(function() {
   var navOffset = $(".nav").offset().top;
   // alert(navOffset);
@@ -34,3 +35,33 @@ $(document).ready(function() {
   });
 });
 
+//////////////////   SKILLS SLIDE UP/DOWN  ///////////////////////
+$(document).ready(function() {
+   $("#front-end-sub").hide();
+});
+
+$(document).ready(function(){
+  $('#front-end').click(function(){
+    event.stopPropagation();
+    $('#front-end-sub').slideDown();
+  });
+
+  $(document).click(function(){
+    $('#front-end-sub').slideUp();
+  });
+});
+
+$(document).ready(function() {
+   $("#back-end-sub").hide();
+});
+
+$(document).ready(function(){
+  $('#back-end').click(function(){
+    event.stopPropagation();
+    $('#back-end-sub').slideDown();
+  });
+
+  $(document).click(function(){
+    $('#back-end-sub').slideUp();
+  });
+});
