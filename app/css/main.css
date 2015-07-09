@@ -213,12 +213,6 @@ div.nav-inner {
   padding-bottom: 140px;
 }
 
-/*.about-me {
-  margin-top: -1.7%;
-  margin-left: -8%;
-  padding-left: 50px;
-}*/
-
 #pro-pic {
   max-width: 475px;
   max-height: 375px;
@@ -234,9 +228,23 @@ div.nav-inner {
   padding-bottom: 120px;
   text-align: center;
 }
+
 #skills .fa {
   color: #D54724;
+  font-size: 75px;
+  border: none;
+  background: none;
 }
+
+#skills .fa:hover{
+  color: #2797D0;
+}
+
+#skills .fa:focus{
+/*  color: #2797D0;*/
+  outline: 0px;
+}
+
 
 #skills p {
   text-align: center;
@@ -259,13 +267,6 @@ div.nav-inner {
   margin: auto;
 }
 
-a.fa-desktop {
-  font-size: 75px;
-}
-
-a.fa-database {
-  font-size: 75px;
-}
 
 .bottom-front-end-container {
   margin-bottom: 50px;
@@ -291,10 +292,6 @@ ul#back-end {
 
 #back-end-sub {
   list-style-type: none;
-}
-
-h3 {
-  text-align: center;
 }
 
 
