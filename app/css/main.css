@@ -418,5 +418,17 @@ a.btn.btn-default.code {
   right: 30px;
 }
 
+/***************   CONTACT PAGE     **********/
+
+#contact {
+  background: #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+#contact .form {
+  padding: 30px 0;
+}
+
+
 
 
