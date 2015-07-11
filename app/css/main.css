@@ -450,3 +450,10 @@ a.btn.btn-default.code {
   box-shadow: 1px 1px 5px black;
   outline: 0px;
 }
+
+#footer {
+  background: #2b2b2b;
+  padding: 25px 0 15px 0;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
