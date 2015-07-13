@@ -422,33 +422,17 @@ a.btn.btn-default.code {
 
 #contact {
   background: #fff;
-  padding: 60px 0;
   text-align: center;
+  padding-top: 60px;
+  padding-bottom: 150px;
 }
 
-#contact .form {
-  padding: 30px 0;
-}
 
 #contact .fa {
   color: #D54724;
+  font-size: 50px;
+  padding-top: 100px;
   margin-bottom: 10px;
-}
-
-#contact .btn {
-  font-weight: 500;
-  font-size: 18px;
-  margin-top: 50px;
-  background-color: #D54724;
-  color: #fff;
-  border: 0;
-}
-
-#contact .btn:hover, #contact .btn:focus {
-  background-color: #C7422C;
-  color: #fff;
-  box-shadow: 1px 1px 5px black;
-  outline: 0px;
 }
 
 #footer {
