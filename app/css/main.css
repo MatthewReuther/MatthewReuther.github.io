@@ -454,7 +454,6 @@ a.btn.btn-default.code {
 }
 
 @media screen and (max-width: 650px) {
-
   div.container.nav-container {
     display: none;
   }
