@@ -237,7 +237,8 @@ div.nav-inner {
 }
 
 #skills .fa:hover{
-  color: #2797D0;
+  text-shadow: 1px 1px 2px black;
+  text-decoration: none;
 }
 
 #skills .fa:focus{
@@ -431,13 +432,24 @@ a.btn.btn-default.code {
 #contact .fa {
   color: #D54724;
   font-size: 50px;
-  padding-top: 100px;
+  margin-top: 100px;
   margin-bottom: 10px;
+  text-decoration: none;
 }
+
+#contact .fa:hover{
+  text-shadow: 1px 1px 2px black;
+  text-decoration: none;
+}
+
 
 #footer {
   background: #2b2b2b;
   padding: 25px 0 15px 0;
   border-bottom: 1px solid #ddd;
-  text-align: left;
+  text-align: center;
+}
+
+#footer .fa {
+  color: #D54724;
 }
