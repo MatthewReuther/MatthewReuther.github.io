@@ -125,14 +125,13 @@ div.nav-container a:focus {
   left: 0;
   width: 100%;
   z-index: 1000;
+  border-bottom: 2px solid #f5f5f5;
 }
 
 /*targets the everyone but the links*/
 div.nav-inner {
   background-color: #FFF;
   border-color: #FFF;
-/*  border-bottom: 2px solid #f5f5f5;
-  display: hidden;*/
 }
 
 
@@ -453,3 +452,15 @@ a.btn.btn-default.code {
 #footer .fa {
   color: #D54724;
 }
+
+@media screen and (max-width: 650px) {
+
+  div.container.nav-container {
+    display: none;
+  }
+  div.container.about-container {
+    margin-top: 50px;
+  }
+}
+
+
