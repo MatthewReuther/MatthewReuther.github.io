@@ -56,98 +56,128 @@ hr {
 
 /***************   HOME NAVBAR    **********/
 
-nav.navbar-home {
-  background-color: black;
+.navbar-custom {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    background-color: #000;
 }
 
-ul.navbar-home-links {
-  text-align: center;
-  padding-top: 20px;
+.navbar-custom .navbar-brand {
+    ont-weight: 700;
 }
 
-.navbar-home-links li {
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+
+.navbar-custom a {
+    color: #fff;
+}
+
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover {
+    outline: 0;
+    color: rgba(255,255,255,.8);
+    background-color: transparent;
+}
+
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+    outline: 0;
+    background-color: transparent;
+}
+
+.navbar-custom .nav li.active {
+    outline: 0;
+}
+
+.navbar-custom .nav li.active a {
+    background-color: rgba(255,255,255,.3);
+}
+
+.navbar-custom .nav li.active a:hover {
+    color: #fff;
+}
+
+@media(min-width:768px) {
+    .navbar-custom {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        padding: 0;
+        border-bottom: 1px solid rgba(255,255,255,.3);
+        background: #000;
+    }
+}
+
+div.container li {
   display: inline-block;
-  padding: 0px 60px;
-  font-size: 20px;
-  font-weight: 200px;
 }
 
-.navbar-home-links a {
+.navbar-brand {
+  float: left;
+  height: 50px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.navbar-custom.top-nav-collapse {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+}
+
+.navbar-nav > li > a {
   color: #fff;
-  text-decoration: none;
-  text-shadow: 1px 1px 2px black;
+  padding: 2em 2em 2em 2em;
 }
 
-.navbar-home-links a:hover {
-  color: #fff;
-  text-decoration: none;
-  text-shadow: 1px 1px 5px black;
+.navbar.navbar-custom.navbar-fixed-top.top-nav-collapse a {
+  color: #777;
+  text-shadow: none;
+  padding: 1em 2em 1em 2em;
 }
 
-/***************   BODY NAVBAR    **********/
-.navbar-default  {
-  background-color: #FFF;
-  border-color: #FFF;
-  text-align: center;
-  text-decoration: none;
-}
-
-
-div.nav-placeholder {
-  margin-bottom: 0px;
-  display: inline-block;
-  text-decoration: none;
-}
-
-div.nav-container li {
-  display:inline-block;
-  padding: 20px 40px 20px 60px;
-  font-size: 15px;
-  font-weight: 200px;
-  text-decoration: none;
-}
-
-div.nav-container li a{
-/*  color: #9D9D9D;*/
-  color: #fff;
-  text-decoration: none;
-}
-
-div.nav-container a:hover,
-div.nav-container a:focus {
-/*  color: black;*/
-  color: #fff;
-}
-
-.fixed {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
-  border-bottom: 2px solid #f5f5f5;
-}
-
-/*targets the everyone but the links*/
-div.nav-inner {
-  background-color: #FFF;
-  border-color: #FFF;
-}
-
-
-/*targets links inside the fixed nav*/
-.fixed .nav-inner > li > a {
-  display: inline-block;
-  text-decoration: none;
-  color: #9D9D9D;
-}
-
-
-.fixed .nav-inner > li > a:hover,
-.fixed .nav-inner > li > a:focus {
+.navbar.navbar-custom.navbar-fixed-top.top-nav-collapse a:hover,
+.navbar.navbar-custom.navbar-fixed-top.top-nav-collapse a:focus {
   color: black;
 }
 
+a.page-scroll {
+  color: #777;
+}
+
+
+div.container li {
+  color: black;
+}
+
+a.navbar-brand.page-scroll {
+  color: #fff;
+  padding: 1.2em 2em 2em 2em;
+}
 
 
 /* ==========================================================================
@@ -157,10 +187,10 @@ div.nav-inner {
 /***************   HOME PAGE     **********/
 #home{
   padding-top: 40px;
-  background: url('../assets/mac_on_desk.jpg') no-repeat center;
+  background: url('../assets/main_background.png') no-repeat center;
   background-size: cover;
   font-size: 15px;
-  padding-bottom: 140px;
+  padding-bottom: 40px;
   text-shadow: 1px 1px 5px black;
 }
 
@@ -169,7 +199,7 @@ div.nav-inner {
   padding-bottom: 20px;
   margin-left: -30px;
   padding-left: 30px;
-  margin-top: 35px;
+  margin-top: 150px;
   text-align: left;
   color: white;
 }
@@ -209,6 +239,7 @@ div.nav-inner {
 }
 
 #about{
+  padding-top: 60px;
   padding-bottom: 140px;
 }
 
@@ -454,9 +485,6 @@ a.btn.btn-default.code {
 }
 
 @media screen and (max-width: 650px) {
-  div.container.nav-container {
-    display: none;
-  }
   div.container.about-container {
     margin-top: 50px;
   }

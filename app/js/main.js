@@ -14,25 +14,20 @@ $(function() {
 });
 
 //////////////////   Navbar  ///////////////////////
-$(document).ready(function() {
-  var navOffset = $(".nav").offset().top;
-  // alert(navOffset);
+// jQuery for page scrolling feature - requires jQuery Easing plugin
+$(function() {
+    $('a.page-scroll').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();
+    });
+});
 
-  $(".nav").wrap('<div class="nav-placeholder"></div>');
-  $(".nav-placeholder").height($(".nav").outerHeight());
-
-  $(".nav").wrapInner('<div class="nav-inner"></div>');
-
-  $(window).scroll(function() {
-    var scrollPosition = $(window).scrollTop();
-      // $(".status").html(scrollPosition);
-    if (scrollPosition >= navOffset) {
-      $(".nav").addClass("fixed");
-    }
-    else {
-      $(".nav").removeClass("fixed");
-    }
-  });
+// Closes the Responsive Menu on Menu Item Click
+$('.navbar-collapse ul li a').click(function() {
+    $('.navbar-toggle:visible').click();
 });
 
 //////////////////   SKILLS SLIDE UP/DOWN  ///////////////////////
@@ -65,3 +60,13 @@ $(document).ready(function(){
     $('#back-end-sub').slideUp();
   });
 });
+
+$(window).scroll(function() {
+    if ($(".navbar").offset().top > 50) {
+        $(".navbar-fixed-top").addClass("top-nav-collapse");
+    } else {
+        $(".navbar-fixed-top").removeClass("top-nav-collapse");
+    }
+});
+
+
