@@ -5,7 +5,7 @@ $(function() {
       target = target.length ? target : $('[name=' + this.hash.slice(4) +']');
       if (target.length) {
         $('html,body').animate({
-          scrollTop: target.offset().top -60
+          scrollTop: target.offset().top -45
         }, 1000);
         return false;
       }

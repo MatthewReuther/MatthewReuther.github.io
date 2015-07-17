@@ -58,8 +58,8 @@ hr {
 
 .navbar-custom {
     margin-bottom: 0;
-    border-bottom: 1px solid rgba(255,255,255,.3);
-    background-color: #000;
+    background: #F8F8F8;
+    border-color: #e7e7e7;
 }
 
 .navbar-custom .navbar-brand {
@@ -129,13 +129,10 @@ hr {
     .navbar-custom.top-nav-collapse {
         padding: 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
-        background: #000;
+        background: #F8F8F8;
     }
 }
 
-div.container li {
-  display: inline-block;
-}
 
 .navbar-brand {
   float: left;
@@ -162,7 +159,7 @@ div.container li {
 
 .navbar.navbar-custom.navbar-fixed-top.top-nav-collapse a:hover,
 .navbar.navbar-custom.navbar-fixed-top.top-nav-collapse a:focus {
-  color: black;
+  color: #777;
 }
 
 a.page-scroll {
@@ -186,21 +183,16 @@ a.navbar-brand.page-scroll {
 
 /***************   HOME PAGE     **********/
 #home{
-  padding-top: 40px;
   background: url('../assets/main_background.png') no-repeat center;
   background-size: cover;
   font-size: 15px;
-  padding-bottom: 40px;
+  padding-bottom: 15%;
   text-shadow: 1px 1px 5px black;
 }
 
 #profile_container {
-  padding-top: 215px;
-  padding-bottom: 20px;
-  margin-left: -30px;
-  padding-left: 30px;
-  margin-top: 150px;
-  text-align: left;
+  padding-top: 23%;
+  text-align: center;
   color: white;
 }
 
@@ -454,7 +446,7 @@ a.btn.btn-default.code {
 #contact {
   background: #fff;
   text-align: center;
-  padding-top: 60px;
+  padding-top: 40px;
   padding-bottom: 150px;
 }
 
