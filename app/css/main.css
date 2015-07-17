@@ -57,32 +57,12 @@ hr {
 /***************   HOME NAVBAR    **********/
 
 .navbar-custom {
-    margin-bottom: 0;
     background: #F8F8F8;
     border-color: #e7e7e7;
 }
 
 .navbar-custom .navbar-brand {
-    ont-weight: 700;
-}
-
-.navbar-custom .navbar-brand:focus {
-    outline: 0;
-}
-
-.navbar-custom .navbar-brand .navbar-toggle {
-    padding: 4px 6px;
-    font-size: 16px;
-    color: #fff;
-}
-
-.navbar-custom .navbar-brand .navbar-toggle:focus,
-.navbar-custom .navbar-brand .navbar-toggle:active {
-    outline: 0;
-}
-
-.navbar-custom a {
-    color: #fff;
+    font-weight: 500;
 }
 
 .navbar-custom .nav li a {
@@ -93,7 +73,7 @@ hr {
 
 .navbar-custom .nav li a:hover {
     outline: 0;
-    color: rgba(255,255,255,.8);
+    color: #777;
     background-color: transparent;
 }
 
@@ -103,21 +83,9 @@ hr {
     background-color: transparent;
 }
 
-.navbar-custom .nav li.active {
-    outline: 0;
-}
-
-.navbar-custom .nav li.active a {
-    background-color: rgba(255,255,255,.3);
-}
-
-.navbar-custom .nav li.active a:hover {
-    color: #fff;
-}
 
 @media(min-width:768px) {
     .navbar-custom {
-        padding: 20px 0;
         border-bottom: 0;
         letter-spacing: 1px;
         background: 0 0;
@@ -133,7 +101,6 @@ hr {
     }
 }
 
-
 .navbar-brand {
   float: left;
   height: 50px;
@@ -141,40 +108,56 @@ hr {
   line-height: 20px;
 }
 
-.navbar-custom.top-nav-collapse {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
-}
 
 .navbar-nav > li > a {
   color: #fff;
-  padding: 2em 2em 2em 2em;
+  padding: 3em 2em 2em 2em;
 }
+
 
 .navbar.navbar-custom.navbar-fixed-top.top-nav-collapse a {
   color: #777;
   text-shadow: none;
-  padding: 1em 2em 1em 2em;
+  padding: 1em 2em 0em 2em;
 }
 
 .navbar.navbar-custom.navbar-fixed-top.top-nav-collapse a:hover,
 .navbar.navbar-custom.navbar-fixed-top.top-nav-collapse a:focus {
-  color: #777;
-}
-
-a.page-scroll {
-  color: #777;
-}
-
-
-div.container li {
   color: black;
+}
+
+.navbar.navbar-custom.navbar-fixed-top.top-nav-collapse {
+  border-bottom: 1px solid #777;
 }
 
 a.navbar-brand.page-scroll {
   color: #fff;
-  padding: 1.2em 2em 2em 2em;
+  text-decoration: none;
+  padding: 2.5em 2em 2em 2em;
 }
+
+i.fa.fa-bars {
+  padding: .1em 0em 0em 0em;
+}
+
+@media screen and (max-width: 850px) {
+  a.navbar-brand.page-scroll {
+  color: #777;
+  text-decoration: none;
+  text-shadow: none;
+  padding: 1em 2em 2em 2em
+  }
+  .navbar-nav > li > a {
+  color: #777;
+  text-shadow: none;
+  padding: 0em 0em 1em 2.5em;
+  text-decoration: none;
+  }
+  .navbar-nav > li > a:hover {
+  color: black;
+  }
+}
+
 
 
 /* ==========================================================================
