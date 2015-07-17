@@ -159,11 +159,6 @@ i.fa.fa-bars {
 }
 
 
-
-/* ==========================================================================
-   Wrap Sections
-   ========================================================================== */
-
 /***************   HOME PAGE     **********/
 #home{
   background: url('../assets/main_background.png') no-repeat center;
@@ -271,6 +266,7 @@ i.fa.fa-bars {
   max-width: 83px;
   height: 83px;
   margin: auto;
+  margin-bottom: 30px;
 }
 
 
@@ -282,6 +278,7 @@ img.wider-images {
   max-height: 83px;
   max-width: 200px;
   margin: auto;
+  margin-bottom: 30px;
 }
 
 ul#front-end {
